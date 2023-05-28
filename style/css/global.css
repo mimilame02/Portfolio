@@ -872,7 +872,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   line-height: 1.8;
   font-weight: 300;
   text-align: right;
-  padding-top: 10px!important;
+  padding-top: 127px!important;
   padding-inline: 19px;
   border-radius: 25px 0px;
   z-index: 1;
@@ -2188,6 +2188,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__description {
     z-index: 1;
     font-size: 13px;
+    padding-top: 10px!important;
     content: '';
     color: #fbfbfb00;
     width: 45%;
@@ -2382,7 +2383,12 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   }
   .hero__description {
     display: none;
-    font-size: 12px;
+    font-size: 9px;
+    position: absolute;
+    top: 301px;
+    right: 43px;
+    text-align: center;
+    background: none!important;
   }
   .hero__photo-wrapper {
     margin-top: 95px;
@@ -2534,6 +2540,16 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   }
   .hero__title-small {
     font-size: 35px;
+  }
+  .hero__description {
+    display: none;
+    font-size: 9px;
+    position: absolute;
+    top: 288px;
+    right: -105px;
+    width: 75%;
+    text-align: center;
+    background: none!important;
   }
   .hero__photo-wrapper {
     margin-top: 90px;
