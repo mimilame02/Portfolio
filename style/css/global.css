@@ -2117,7 +2117,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
     z-index: 220;
   }
   .hero__title-wrapper {
-    margin-top: 110px;
+    margin-top: 30px;
   }
   .hero__title-large {
     font-size: 70px;
@@ -2256,14 +2256,14 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 \*------------------------------------*/
 @media (max-width: 890px) {
   .hero__title-large {
-    font-size: 65px;
+    font-size: 60px;
   }
   .hero__title-small {
-    font-size: 35px;
+    font-size: 30px;
   }
   .hero__photo {
-    width: 180px;
-    height: 180px;
+    width: 195px;
+    height: 263px;
   }
   .hero__button,
   .hero__scroll {
