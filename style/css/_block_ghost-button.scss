@@ -67,3 +67,9 @@
 		height: 600px;
 	}
 }
+.ghost-button--modalContact {
+	&:hover::before, &:focus::before {
+		width: 400px;
+		height: 400px;
+	}
+}

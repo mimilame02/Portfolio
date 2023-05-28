@@ -1,7 +1,6 @@
 <!DOCTYPE html><html lang="en">
 
 <head>
-	<!-- Basic informations -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,13 +45,11 @@
 
 <body>
 
-	<!-- Some Helper Stuff -->
 	<div id="start" class="start">&nbsp;</div>
 	<div class="maxwidth1050">&nbsp;</div>
 
 
 
-	<!-- Header -->
 	<header class="header">
 		<div class="header__wrapper">
 			<div class="header__hamburger">
@@ -82,10 +79,8 @@
 			</div>
 		</div>
 	</header>
-	<!-- End Header -->
 
 
-	<!-- First Fixed "Hero" Section -->
 	<section id="hero" class="hero">
 		<div class="hero__background">&nbsp;</div>
 		<div class="hero__gradient">&nbsp;</div>
@@ -109,13 +104,10 @@
 			</div>
 		</div>
 	</section>
-	<!-- End First Fixed "Hero" Section -->
 
 
-	<!-- Scrollable Content -->
 	<div class="content">
 
-		<!-- "Experience" Section -->
 		<section id="experience" class="experience">
 			<div class="experience__hollow-arrow">&nbsp;</div>
 			<div class="experience__wrapper">
@@ -154,13 +146,9 @@
 				</div>
 			</div>
 		</section>
-		<!-- End "Experience" Section -->
 
 
 		
-
-
-		<!-- "Realizations" Section - With Projects -->
 		<section id="realizations" class="realizations">
 			<div class="realizations__wrapper">
 
@@ -182,7 +170,6 @@
 					<!-- </div> -->
 
 						
-					<!-- Image Container -->
 					<div id="imageContainer" class="modal">
 						<span class="close">&times;</span>
 						<img class="modal-content" id="modalImage">
@@ -191,7 +178,6 @@
 
 					<div class="showcase__stage-wrapper">
 
-						<!-- project 1 -->
 						<div data-project="p1" class="showcase__stage  showcase__stage--active">
 							<div class="showcase__slider">
 								<ul class="rslides">
@@ -260,7 +246,7 @@
 								<div class="showcase__point">
 									<div class="showcase__point-title">Details</div>
 									<div class="showcase__point-details-excerpt">
-										Sofiyyahrental, a rental management system implemented with various functionalities, including tenant and landlord profiling, as well as property and unit management. <!--<span class="showcase__ellipsis"></span>--><span class="showcase__readmore">more</span>
+										Sofiyyahrental, a rental management system implemented with various functionalities, including tenant and landlord profiling, as well as property and unit management. <span class="showcase__ellipsis"></span><span class="showcase__readmore">more</span>
 									</div>
 
 									<div class="showcase__point-details-full">
@@ -278,9 +264,9 @@
 				<!-- </div> -->
 			</div>
 		</section>
-		<!-- End "Realizations" Section - With Projects -->
 
-		<!-- "Education" Section -->
+
+
 		<section id="education" class="education">
 			<div class="education__wrapper">
 				<div class="section-header">
@@ -302,10 +288,9 @@
 				</div>
 			</div>
 		</section>
-		<!-- End "Education" Section -->
 
 
-		<!-- "Contact" Section -->
+
 		<section id="contact" class="contact">
 			<div class="contact__wrapper">
 				<div class="section-header">
@@ -330,59 +315,76 @@
 				
 
 				<div class="contact__spacer">&nbsp;</div>
+				<div id="modalBtn">
+					<button id="modalBtn" class="modal-contact-button ghost-button  ghost-button--modalContact mx-auto mb-4">Say Hi!</button>
+				</div>
 
-				<form class="contact__form">
 
-					<div class="contact__textarea-wrapper">
-						<label for="message" class="contact__label">Message</label>
-						<div class="contact__response-ajax-text">&nbsp;</div>
-						<textarea id="message" rows="10" placeholder="Hello! Would you be interested in collaboration for the greatest project ever?" required></textarea>
-					</div>
+				<div id="contactModal" class="modal">
 
-					<div class="contact__bottom-wrapper">
-						<div class="contact__sender-info-wrapper">
-							<div class="contact__input-wrapper  contact__input-wrapper--name">
-								<label for="name" class="contact__label">Your Name</label>
+					<div class="modal-content">
+						<span id="closeModal" class="close">&times;</span>
+
+						<form class="contact__form text-dark">
+
+							<div class="contact__textarea-wrapper">
+								<label for="message" class="contact__label">Message</label>
 								<div class="contact__response-ajax-text">&nbsp;</div>
-								<input id="name" type="text" placeholder="John Kowalski" required>
+								<textarea id="message" rows="10" placeholder="Hello! Would you be interested in collaboration for the greatest project ever?" required></textarea>
 							</div>
-							<div class="contact__input-wrapper  contact__input-wrapper--email">
-								<label for="email" class="contact__label">Your E-mail</label>
-								<div class="contact__response-ajax-text">&nbsp;</div>
-								<input id="email" type="email" placeholder="john@example.com" required>
-							</div>
-						</div>
 
-						<div class="contact__button-wrapper  ghost-button  ghost-button--contact">
-							<div class="contact__response  contact__response--success">
-								<div class="contact__response-title"><i class="fa fa-check"></i> Message was sent.</div>
-								<div class="contact__response-description  contact__response-description--success">&nbsp;</div>
+							<div class="contact__bottom-wrapper">
+								<div class="contact__sender-info-wrapper">
+									<div class="contact__input-wrapper  contact__input-wrapper--name">
+										<label for="name" class="contact__label">Your Name</label>
+										<div class="contact__response-ajax-text">&nbsp;</div>
+										<input id="name" type="text" placeholder="John Kowalski" required>
+									</div>
+									<div class="contact__input-wrapper  contact__input-wrapper--email">
+										<label for="email" class="contact__label">Your E-mail</label>
+										<div class="contact__response-ajax-text">&nbsp;</div>
+										<input id="email" type="email" placeholder="john@example.com" required>
+									</div>
+								</div>
+
+								<div class="contact__button-wrapper  ghost-button  ghost-button--contact">
+									<div class="contact__response  contact__response--success">
+										<div class="contact__response-title"><i class="fa fa-check"></i> Message was sent.</div>
+										<div class="contact__response-description  contact__response-description--success">&nbsp;</div>
+									</div>
+									<div class="contact__response  contact__response--error">
+										<div class="contact__response-title"><i class="fa fa-warning"></i> Error.</div>
+										<div class="contact__response-description  contact__response-description--error">Message couldn't be sent.</div>
+									</div>
+									<div class="contact__paper-plane-wrapper"><i class="fa fa-paper-plane"></i></div>
+									<input id="contactsubmit" onclick="submitForm()" type="submit" value=" ">
+								</div>
 							</div>
-							<div class="contact__response  contact__response--error">
-								<div class="contact__response-title"><i class="fa fa-warning"></i> Error.</div>
-								<div class="contact__response-description  contact__response-description--error">Message couldn't be sent.</div>
-							</div>
-							<div class="contact__paper-plane-wrapper"><i class="fa fa-paper-plane"></i></div>
-							<input id="contactsubmit" onclick="submitForm()" type="submit" value=" ">
-						</div>
+						</form>
 					</div>
-				</form>
+				</div>
+
 
 			</div>
 		</section>
-		<!-- End "Contact" Section -->
 
-		<!-- Footer -->
+
+
+
 		<footer id="footer" class="footer">
 			<div class="footer__wrapper">
 				<div class="footer__copyright">Some Rights Reserved &copy;</div>
 				<a href="#" target="_self" class="footer__image">&nbsp;</a>
 			</div>
 		</footer>
-		<!-- End Footer -->
 
 	</div>
-	<!-- End Scrollable Content -->
+
+
+
+
+
+
 
 
 	<!-- Scripts postload -->
@@ -390,107 +392,131 @@
 	<script src="style/js/global.js" type="text/javascript"></script>
 
 	<script>
+		
 		window.onload = function() {
-		var flexContainer = document.querySelector('li.d-flex');
-		var flexItems = flexContainer.querySelectorAll('a');
-		var perRow = 2;  // Set to desired number of items per row
+			var flexContainer = document.querySelector('li.d-flex');
+			var flexItems = flexContainer.querySelectorAll('a');
+			var perRow = 2;
 
-		for (var i = 0; i < flexItems.length; i++) {
-			if (i % perRow === 0 && i !== 0) {
-			var breakElement = document.createElement('div');
-			breakElement.classList.add('break');
-			flexContainer.insertBefore(breakElement, flexItems[i]);
+			for (var i = 0; i < flexItems.length; i++) {
+				if (i % perRow === 0 && i !== 0) {
+					var breakElement = document.createElement('div');
+					breakElement.classList.add('break');
+					flexContainer.insertBefore(breakElement, flexItems[i]);
+				}
 			}
-		}
 		};
 
 		window.onload = function() {
-		// Get the container and the links
-		var modal = document.getElementById('imageContainer');
-		var img = document.getElementById('modalImage');
-		var links = document.querySelectorAll('.image-link');
-		var span = document.getElementsByClassName("close")[0];
+			var modal = document.getElementById('imageContainer');
+			var img = document.getElementById('modalImage');
+			var links = document.querySelectorAll('.image-link');
+			var span = document.getElementsByClassName("close")[0];
 
-		// Add a click event listener to each link
-		links.forEach(function(link) {
-			link.addEventListener('click', function(event) {
-			// Prevent the link from opening in a new tab
-			event.preventDefault();
+			links.forEach(function(link) {
+				link.addEventListener('click', function(event) {
+				event.preventDefault();
 
-			// Set the source of the image and show the modal
-			img.src = this.href;
-			modal.style.display = "block";
+				img.src = this.href;
+				modal.style.display = "block";
+				});
 			});
-		});
 
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() { 
-			modal.style.display = "none";
-		}
-
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-			if (event.target == modal) {
-			modal.style.display = "none";
+			span.onclick = function() { 
+				modal.style.display = "none";
 			}
-		}
+
+			window.onclick = function(event) {
+				if (event.target == modal) {
+				modal.style.display = "none";
+				}
+			}
 		};
 
 	</script>
 	<script>
-        // Your list of facts
-        let facts = [
+
+		let facts = [
 			"Can't live without my cat",
 			"Likes to sweet talk when seen a cat",
 			"An unusual cat person..."
 		];
 
 
-        // Counter to keep track of current fact
         let factIndex = 0;
 
-        // The HTML element where we will display the facts
         let factContainer = document.getElementById("factContainer");
 
         function typeFact(fact, charIndex) {
             if (charIndex < fact.length) {
-                // Add the next character to the displayed fact
                 factContainer.innerHTML += fact[charIndex];
-                // Wait before typing the next character
                 setTimeout(typeFact, 100, fact, charIndex + 1);
             } else {
-                // Wait before starting the next fact
                 setTimeout(nextFact, 1000);
             }
         }
 
         function nextFact() {
-            // Clear the displayed fact
             factContainer.innerHTML = "";
-            // If we have more facts, type the next one
             if (factIndex < facts.length) {
                 typeFact(facts[factIndex], 0);
                 factIndex++;
             } else {
-                // If we've gone through all facts, start over
                 factIndex = 0;
                 nextFact();
             }
         }
 
-        // Start typing the first fact
         nextFact();
     </script>
 
 
 	<script>
+
+		// Get modal element
+		var modal = document.getElementById('contactModal');
+
+		// Get open modal button
+		var modalBtn = document.getElementById('modalBtn');
+
+		// Get close button
+		var closeBtn = document.getElementById('closeModal');
+
+		// Listen for open click
+		modalBtn.addEventListener('click', openModal);
+
+		// Listen for close click
+		closeBtn.addEventListener('click', closeModal);
+
+		// Listen for outside click
+		window.addEventListener('click', outsideClick);
+
+		// Function to open modal
+		function openModal() {
+			modal.style.display = 'block';
+		}
+
+		// Function to close modal
+		function closeModal() {
+			modal.style.display = 'none';
+		}
+
+		// Function to close modal if outside click
+		function outsideClick(e) {
+			if(e.target == modal){
+				modal.style.display = 'none';
+			}
+		}
+
+
 		$(document).ready(function() {
-			$("#contact__submit").click(function() {
+			$("#contactsubmit").click(function(event) {
+				event.preventDefault(); // prevent the form from refreshing the page
+
 				var sender_name = $("#name").val();
 				var sender_email = $("#email").val();
-				var message_content = $("#content").val();
+				var message_content = $("#message").val();
 
-				// Hide paper plane
 				$(".contact__paper-plane-wrapper").hide();
 
 				$.ajax({
@@ -536,6 +562,7 @@
 				});
 			});
 		});
+
 	</script>
 		
 </body>
