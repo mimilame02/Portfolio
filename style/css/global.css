@@ -2510,6 +2510,20 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .contact__response-ajax-text::before {
     font-size: 13px;
   }
+  .education__title {
+    font-size: 18px;
+    line-height: 1;
+    padding-bottom: 3px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  .education__subtitle {
+    font-size: 14px;
+  }
+  .education__duration {
+    font-size: 12px;
+  }
 }
 
 /*------------------------------------*	(max-width: 620px)
