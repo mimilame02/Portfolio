@@ -2126,7 +2126,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
     font-size: 40px;
   }
   .hero__photo-wrapper {
-    margin-top: 80px;
+    margin-top: 35px;
   }
   .hero__description {
     font-size: 19px;
@@ -2245,9 +2245,10 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   .hero__title-small {
     font-size: 38px;
   }
+
   .hero__description {
-    font-size: 18px;
-    padding-top: 60px;
+      font-size: 15px;
+      padding-top: 35px;
   }
 }
 
