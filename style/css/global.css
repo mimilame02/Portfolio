@@ -3116,6 +3116,8 @@ li.d-flex {
   #modalBtn {
     display: block;
     background: transparent;
+    width: 162px;
+    margin-inline: auto;
   }
   
   
