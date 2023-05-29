@@ -1021,7 +1021,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .experience__wrapper {
   position: relative;
-  z-index: 130;
+  z-index: 200;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -1163,7 +1163,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .education__wrapper {
   position: relative;
-  z-index: 130;
+  z-index: 200;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -1328,7 +1328,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .realizations__wrapper {
   position: relative;
-  z-index: 130;
+  z-index: 230;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -1401,6 +1401,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 .showcase__stage-wrapper {
   position: relative;
   min-height: 460px;
+  z-index: 999;
 }
 
 .showcase__stage {
@@ -1664,7 +1665,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .contact__wrapper {
   position: relative;
-  z-index: 100;
+  z-index: 200;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -2469,7 +2470,7 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
     height: 41px;
     font-size: 15px;
     line-height: 43px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 }
 
